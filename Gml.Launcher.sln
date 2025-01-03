@@ -7,14 +7,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{662268E9-BD0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{09A80297-F0EB-4A8F-8CD1-20DF8AD12D38}"
 	ProjectSection(SolutionItems) = preProject
-		README.md = README.md
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
 		load-repositories.bat = load-repositories.bat
 		load-repositories.sh = load-repositories.sh
-		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		README.md = README.md
 		src\Gml.Client\README.md = src\Gml.Client\README.md
-		.gitmodules = .gitmodules
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gml.Launcher", "src\Gml.Launcher\Gml.Launcher.csproj", "{F2771E71-C782-4713-862F-217694DDDFF5}"
@@ -36,6 +36,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L1.Avalonia.Gif", "src\L1.Avalonia.Gif\L1.Avalonia.Gif.csproj", "{19B15268-CF4D-4571-8DF3-6EBC586BB856}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "launcher", "launcher", "{48DF3E50-4AB6-4569-9C79-E8FAC444434E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{4B88B879-EB69-4381-BAB7-56A1238D0822}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,10 +81,8 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E0375879-A52D-4581-81EF-7A27063F494F}
-	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{F2771E71-C782-4713-862F-217694DDDFF5} = {48DF3E50-4AB6-4569-9C79-E8FAC444434E}
 		{49013DAA-207C-4542-8F85-671FB45797F4} = {662268E9-BD01-43C7-924B-F4F285C8D391}
 		{34519B31-294B-4868-BFDB-817E550A54EC} = {53569526-A495-4E84-ADF3-83D2188318AB}
 		{B8E0451C-3C44-470B-9853-C7D0A3648C20} = {662268E9-BD01-43C7-924B-F4F285C8D391}
@@ -90,6 +90,8 @@ Global
 		{88B821C7-B895-4CB0-832A-5B66138B6AF2} = {662268E9-BD01-43C7-924B-F4F285C8D391}
 		{AE697645-C3EB-4FC8-AAA6-932B9751D348} = {662268E9-BD01-43C7-924B-F4F285C8D391}
 		{19B15268-CF4D-4571-8DF3-6EBC586BB856} = {662268E9-BD01-43C7-924B-F4F285C8D391}
-		{F2771E71-C782-4713-862F-217694DDDFF5} = {48DF3E50-4AB6-4569-9C79-E8FAC444434E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0375879-A52D-4581-81EF-7A27063F494F}
 	EndGlobalSection
 EndGlobal

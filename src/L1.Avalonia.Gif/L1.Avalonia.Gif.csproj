@@ -8,12 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="L1.Avalonia.Gif.csproj"/>
+    <Content Include="L1.Avalonia.Gif.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="11.2.2" />
-    <PackageReference Include="System.Reactive" Version="6.0.1"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0" />
+    <PackageReference Include="System.Reactive" Version="6.0.1" />
   </ItemGroup>
 
 </Project>

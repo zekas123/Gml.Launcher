@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
@@ -15,11 +15,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <AvaloniaResource Include="Assets\**"/>
+    <AvaloniaResource Include="Assets\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Remove="Assets\Resource.resx"/>
+    <EmbeddedResource Remove="Assets\Resource.resx" />
     <EmbeddedResource Update="Assets\Resources\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -38,7 +38,12 @@
     <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.2.2" />
     <PackageReference Include="Avalonia.ReactiveUI" Version="11.2.2" />
     <PackageReference Include="Hardware.Info" Version="101.0.0" />
-    <PackageReference Include="ReactiveUI.Fody" Version="19.5.41"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="ReactiveUI.Fody" Version="19.5.41" />
     <PackageReference Include="Sentry" Version="4.13.0" />
     <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="2.1.4" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
@@ -63,7 +68,7 @@
     <Compile Update="Core\Services\LocalStorageService.cs">
       <DependentUpon>IStorageService.cs</DependentUpon>
     </Compile>
-    <Compile Remove="Assets\Resources\ResourceKeysDictionary.Template.cs"/>
+    <Compile Remove="Assets\Resources\ResourceKeysDictionary.Template.cs" />
     <Compile Update="Core\Services\VpnChecker.cs">
       <DependentUpon>IVpnChecker.cs</DependentUpon>
     </Compile>
@@ -71,9 +76,9 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\GamerVII.Notification.Avalonia\GamerVII.Notification.Avalonia\GamerVII.Notification.Avalonia.csproj"/>
+    <ProjectReference Include="..\GamerVII.Notification.Avalonia\GamerVII.Notification.Avalonia\GamerVII.Notification.Avalonia.csproj" />
     <ProjectReference Include="..\Gml.Client\src\Gml.Client\Gml.Client.csproj" />
-    <ProjectReference Include="..\L1.Avalonia.Gif\L1.Avalonia.Gif.csproj"/>
+    <ProjectReference Include="..\L1.Avalonia.Gif\L1.Avalonia.Gif.csproj" />
   </ItemGroup>
 
 
@@ -97,5 +102,10 @@
     <AvaloniaResource Update="Assets\Resources\Resources.ru.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
     </AvaloniaResource>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Data\" />
   </ItemGroup>
 </Project>

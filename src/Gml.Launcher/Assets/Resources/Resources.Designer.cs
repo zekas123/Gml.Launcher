@@ -10,8 +10,8 @@
 
 namespace Gml.Launcher.Assets.Resources {
     using System;
-
-
+    
+    
     /// <summary>
     ///   Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
     /// </summary>
@@ -23,15 +23,15 @@ namespace Gml.Launcher.Assets.Resources {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resources {
-
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
-
+        
         /// <summary>
         ///   Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
         /// </summary>
@@ -45,7 +45,7 @@ namespace Gml.Launcher.Assets.Resources {
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Перезаписывает свойство CurrentUICulture текущего потока для всех
         ///   обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
@@ -59,7 +59,7 @@ namespace Gml.Launcher.Assets.Resources {
                 resourceCulture = value;
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Sign in.
         /// </summary>
@@ -68,7 +68,205 @@ namespace Gml.Launcher.Assets.Resources {
                 return ResourceManager.GetString("AuthButtonText", resourceCulture);
             }
         }
-
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Available.
+        /// </summary>
+        public static string Available {
+            get {
+                return ResourceManager.GetString("Available", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на BACK.
+        /// </summary>
+        public static string Back {
+            get {
+                return ResourceManager.GetString("Back", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Profile.
+        /// </summary>
+        public static string Cabinet {
+            get {
+                return ResourceManager.GetString("Cabinet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Checking file integrity.
+        /// </summary>
+        public static string CheckingFileIntegrity {
+            get {
+                return ResourceManager.GetString("CheckingFileIntegrity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Check for updates.
+        /// </summary>
+        public static string CheckUpdates {
+            get {
+                return ResourceManager.GetString("CheckUpdates", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Sits in the launcher.
+        /// </summary>
+        public static string DefaultDRpcText {
+            get {
+                return ResourceManager.GetString("DefaultDRpcText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Auto.
+        /// </summary>
+        public static string DynamicValue {
+            get {
+                return ResourceManager.GetString("DynamicValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Change.
+        /// </summary>
+        public static string Edit {
+            get {
+                return ResourceManager.GetString("Edit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Error.
+        /// </summary>
+        public static string Error {
+            get {
+                return ResourceManager.GetString("Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Failed to determine the operating system.
+        /// </summary>
+        public static string FailedOs {
+            get {
+                return ResourceManager.GetString("FailedOs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на files.
+        /// </summary>
+        public static string Files {
+            get {
+                return ResourceManager.GetString("Files", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Full screen.
+        /// </summary>
+        public static string FullScreen {
+            get {
+                return ResourceManager.GetString("FullScreen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Error initializing the game profile..
+        /// </summary>
+        public static string GameProfileError {
+            get {
+                return ResourceManager.GetString("GameProfileError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Information.
+        /// </summary>
+        public static string Information {
+            get {
+                return ResourceManager.GetString("Information", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Install folder.
+        /// </summary>
+        public static string InstallationDirectory {
+            get {
+                return ResourceManager.GetString("InstallationDirectory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Installing updates.
+        /// </summary>
+        public static string InstallingUpdates {
+            get {
+                return ResourceManager.GetString("InstallingUpdates", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Auth error.
+        /// </summary>
+        public static string InvalidAuthData {
+            get {
+                return ResourceManager.GetString("InvalidAuthData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Failed to change the installation folder or an error occurred while changing the folder..
+        /// </summary>
+        public static string InvalidFolder {
+            get {
+                return ResourceManager.GetString("InvalidFolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Your game session in the launcher has expired, please log in again..
+        /// </summary>
+        public static string InvalidSession {
+            get {
+                return ResourceManager.GetString("InvalidSession", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Not enough disk space.
+        /// </summary>
+        public static string IsDiskFull {
+            get {
+                return ResourceManager.GetString("IsDiskFull", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Unable to detect a loaded Java for your operating system, please contact support or the project administrator..
+        /// </summary>
+        public static string JavaNotFound {
+            get {
+                return ResourceManager.GetString("JavaNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Launching.
+        /// </summary>
+        public static string Launching {
+            get {
+                return ResourceManager.GetString("Launching", resourceCulture);
+            }
+        }
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Login.
         /// </summary>
@@ -77,7 +275,16 @@ namespace Gml.Launcher.Assets.Resources {
                 return ResourceManager.GetString("Login", resourceCulture);
             }
         }
-
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Lost connection to server.
+        /// </summary>
+        public static string LostConnection {
+            get {
+                return ResourceManager.GetString("LostConnection", resourceCulture);
+            }
+        }
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Mods list.
         /// </summary>
@@ -86,7 +293,25 @@ namespace Gml.Launcher.Assets.Resources {
                 return ResourceManager.GetString("ModsList", resourceCulture);
             }
         }
-
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Failed to get launch settings. Please go to the client settings and try again..
+        /// </summary>
+        public static string NotSetting {
+            get {
+                return ResourceManager.GetString("NotSetting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на On servers.
+        /// </summary>
+        public static string OnServers {
+            get {
+                return ResourceManager.GetString("OnServers", resourceCulture);
+            }
+        }
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Password.
         /// </summary>
@@ -95,7 +320,7 @@ namespace Gml.Launcher.Assets.Resources {
                 return ResourceManager.GetString("Password", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Play.
         /// </summary>
@@ -104,7 +329,52 @@ namespace Gml.Launcher.Assets.Resources {
                 return ResourceManager.GetString("Play", resourceCulture);
             }
         }
-
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Play in.
+        /// </summary>
+        public static string PlayDRpcText {
+            get {
+                return ResourceManager.GetString("PlayDRpcText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на pl..
+        /// </summary>
+        public static string PlayersShort {
+            get {
+                return ResourceManager.GetString("PlayersShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Preparing to launch....
+        /// </summary>
+        public static string PreparingLaunch {
+            get {
+                return ResourceManager.GetString("PreparingLaunch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Profile not configured.
+        /// </summary>
+        public static string ProfileNotConfigured {
+            get {
+                return ResourceManager.GetString("ProfileNotConfigured", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Reconnecting.....
+        /// </summary>
+        public static string Reconnecting {
+            get {
+                return ResourceManager.GetString("Reconnecting", resourceCulture);
+            }
+        }
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Settings.
         /// </summary>
@@ -113,7 +383,70 @@ namespace Gml.Launcher.Assets.Resources {
                 return ResourceManager.GetString("Settings", resourceCulture);
             }
         }
-
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Configure the amount of RAM consumed..
+        /// </summary>
+        public static string SettingsRamDescription {
+            get {
+                return ResourceManager.GetString("SettingsRamDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Settings RAM.
+        /// </summary>
+        public static string SettingsRamTitle {
+            get {
+                return ResourceManager.GetString("SettingsRamTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Stay.
+        /// </summary>
+        public static string Stay {
+            get {
+                return ResourceManager.GetString("Stay", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на MB.
+        /// </summary>
+        public static string UnitMb {
+            get {
+                return ResourceManager.GetString("UnitMb", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Updating.
+        /// </summary>
+        public static string Updating {
+            get {
+                return ResourceManager.GetString("Updating", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Retrieving updates.
+        /// </summary>
+        public static string UpdatingDescription {
+            get {
+                return ResourceManager.GetString("UpdatingDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на You are using a VPN connection, which may negatively affect connection quality and game client downloads. Please disable the VPN while running the launcher..
+        /// </summary>
+        public static string VpnUse {
+            get {
+                return ResourceManager.GetString("VpnUse", resourceCulture);
+            }
+        }
+        
         /// <summary>
         ///   Ищет локализованную строку, похожую на Website.
         /// </summary>
@@ -122,172 +455,13 @@ namespace Gml.Launcher.Assets.Resources {
                 return ResourceManager.GetString("Website", resourceCulture);
             }
         }
+        
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Website.
-        /// </summary>
-        public static string Back {
-            get {
-                return ResourceManager.GetString("Back", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на Website.
-        /// </summary>
-        public static string Cabinet {
-            get {
-                return ResourceManager.GetString("Cabinet", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string ProfileNotConfigured {
-            get {
-                return ResourceManager.GetString("ProfileNotConfigured", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string SettingsRamDescription {
-            get {
-                return ResourceManager.GetString("SettingsRamDescription", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string SettingsRamTitle {
-            get {
-                return ResourceManager.GetString("SettingsRamTitle", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string DynamicValue {
-            get {
-                return ResourceManager.GetString("DynamicValue", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
+        ///   Ищет локализованную строку, похожую на Window size.
         /// </summary>
         public static string WindowSize {
             get {
                 return ResourceManager.GetString("WindowSize", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string FullScreen {
-            get {
-                return ResourceManager.GetString("FullScreen", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string UnitMb {
-            get {
-                return ResourceManager.GetString("UnitMb", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string Available {
-            get {
-                return ResourceManager.GetString("Available", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string OnServers {
-            get {
-                return ResourceManager.GetString("OnServers", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string PlayersShort {
-            get {
-                return ResourceManager.GetString("PlayersShort", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string InstallationDirectory {
-            get {
-                return ResourceManager.GetString("InstallationDirectory", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string Edit {
-            get {
-                return ResourceManager.GetString("Edit", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string Stay {
-            get {
-                return ResourceManager.GetString("Stay", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string Files {
-            get {
-                return ResourceManager.GetString("Files", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string InvalidFolder {
-            get {
-                return ResourceManager.GetString("InvalidFolder", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string IsDiskFull {
-            get {
-                return ResourceManager.GetString("IsDiskFull", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string GameProfileError {
-            get {
-                return ResourceManager.GetString("GameProfileError", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string InvalidSession {
-            get {
-                return ResourceManager.GetString("InvalidSession", resourceCulture);
-            }
-        }
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на ProfileNotConfigured.
-        /// </summary>
-        public static string VpnUse {
-            get {
-                return ResourceManager.GetString("VpnUse", resourceCulture);
             }
         }
     }
